@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Performances</title>
+    <link rel="stylesheet" href="up_style.css">
+    <script defer src="up_main.dart.js"></script>
+</head>
+<body>
+    <div style="background-color: lightgray">
+        <input type="file" id="selectFolder" webkitdirectory directory class="custom-file-input">
+        <div style="position:absolute; top:8px; left:150px">
+        Da: <input id="minYear" type="text" value="2004" size="2">
+        a: <input id="maxYear" type="text" value="2017" size="2">
+        <button id="vis" type="button">Visualizza</button>
+        </div>
+        <div style="position:absolute; top:7px; left:500px">
+            <input id="long" type="checkbox"> <input id="numGroups" type="text" value="5" size="1"> longevità
+        </div>
+        <div style="position:absolute; top:7px; left:750px">
+            Soddisfazione
+            <input id="overall" type="checkbox" checked> complessiva
+            <input id="teachers" type="checkbox"> rapporto professori
+            <input id="students" type="checkbox"> rapporto studenti
+        </div>
+    </div>
+    <br>
+    <div class="relative">
+        <canvas id="canvas"></canvas>
+        <canvas id="canvasOverlay" class="overlay"></canvas>
+    </div>
+</body>
+</html>
