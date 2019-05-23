@@ -1,6 +1,8 @@
 # UniVis
 Interactive visualization to evaluate the performance of Italian universities, based on the questionnaires given to students by [AlmaLaurea](https://www2.almalaurea.it/cgi-php/universita/statistiche/tendine.php?LANG=it&config=profilo). 
 
+![Visualization example](vis_example.png)
+
 Data of the University of Bari and the Polytechnic of Bari are provided, but other data provided by AlmaLaurea can also be used.
 
 ## How to use
